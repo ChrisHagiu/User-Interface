@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,8 +20,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline; 
-} */
+	vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,89 +45,96 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box; 
-	border: 1px solid black; 
+    box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
-body{
-	max-width: 50%;
-	margin: auto;
+a { 
+	color: gray;
+	padding: 30px;
 }
-nav{
-	width: 100%;
-	padding: 20px 20% 20px 20%;
+.section1a {
 	display: inline-block;
-	background-color: teal;
 }
-nav a{
-	text-decoration: none;
-	color: darkgrey;
+.topimage{
+	padding-left: 50px;
 	display: inline-block;
-	width:10%;
+}
+.section2 {
+	border-bottom: 2px black;
+}
+.section2a {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 60px;
+	padding-left: 50px;
+}
+.codeimg{
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+.section3 {
+	/*border: 2px solid red;*/
+}
+.section3a {
+	display: inline-block;
+	margin: 1%;
+    width: 23%;
+    min-width: 150px;
+	vertical-align: middle;
+	/*border: 2px solid red;*/
+}
+.section3b {
+	display: inline-block;
+	margin: 1%;
+    width: 23%;
+	min-width: 150px;
+	vertical-align: middle;
+	margin-left: 300px;
+	/*border: 2px solid red;*/
+}
+.middle-image {
+	padding-left: 100px;
+}
+.section4 {
+	/*border: 2px solid red;*/
+}
+.section4a {
+	display: inline-block;
+	margin: 1%;
+    width: 23%;
+	min-width: 150px;
+}
+.section4b {
+	display: inline-block;
+	margin: 1%;
+    width: 23%;
+	min-width: 150px;
+}
+.section4c {
+	display: inline-block;
+	margin: 1%;
+    width: 23%;
+	min-width: 150px;
+}
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.main-content{
 	margin: 0 auto;
-	background-color: purple;
-	
-}
-.logo{
-	display: inline-block;
-	width: 20%;
-	background-color: green;
-}
-header{
-	display: inline-block;
-	width: 50%;
-}
-header h1{
-
-}
-header p{
-
-}
-header .middleImage{
-
-}
-.top{
-
-}
-.top h2{
-
-}
-.top p{
-
-}
-.middle-image{
-	display:inl
-}
-.middle{
-
-}
-.middle h2{
-
-}
-.middle p{
-
-}
-h2 {
-
-}
-address{
-
-}
-footer{
-
+	/* padding-left: 300px; */
+	text-align:center;
 }
